@@ -91,3 +91,19 @@ cp что_копируем куда_копируем
 cd /c + Enter` попасть в корневую директорию Windows
 `cd ~/Documents/` переместиться в домашнюю директорию
 папка Documents хранится в домашней директории
+
+
+# Установка Git
+`git version`  
+Если Git установлен правильно, консоль выведет его текущую версию
+## Настройка Git
+ 
+### Работа с файлом настройки .gitconfig 
+
+`$ git config --global user.name "User Namovich"`
+ имя или ник нужно написать латиницей и в кавычках
+
+`$ git config --global user.email username@yandex.ru` здесь нужно указать свой настоящий email
+ 
+`cat ~/.gitconfig` или `git config --list`
+вывести содержимое файла конфигурации Git
